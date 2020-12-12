@@ -14,7 +14,7 @@ func main() {
 	for {
 		acc, err := runBootUp(instructions, iteration)
 		if err == nil {
-			fmt.Println("accumolator ", acc)
+			fmt.Println("accumolator ", acc, iteration)
 			break
 		}
 		iteration++
